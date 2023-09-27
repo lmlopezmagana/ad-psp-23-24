@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+/*
 @Repository
 public class RepositorioAlumno {
 
@@ -98,3 +99,4 @@ public class RepositorioAlumno {
 
 
 }
+*/
