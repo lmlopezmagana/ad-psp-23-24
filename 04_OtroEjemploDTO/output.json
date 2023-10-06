@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "nombre": "Ruta de monumentos",
+  "dificultad": "Baja",
+  "tiempo": "1h 20m.",
+  "monumentos": [
+    {
+      "nombre": "La Catedral de Sevilla",
+      "localizacion": "40.1234,-5.12345",
+      "localidad": "Sevilla",
+      "imagen": "http://imagen.jpg",
+      "nombreCategoria": "Religioso"
+    }
+  ]
+}
