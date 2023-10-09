@@ -9,7 +9,7 @@ public record GetRutaDto(
         String nombre,
         String dificultad,
         String tiempo,
-        List<GetMonumentoDto> monumentos
+        List<GetMonumentoEnRutaDto> monumentos
 ) {
 
     public static GetRutaDto of (Ruta r)  {
@@ -21,7 +21,7 @@ public record GetRutaDto(
                 Integer.toString(r.getTiempo()),
                 r.getMonumentos()
                         .stream()
-                        .map(GetMonumentoDto::of)
+                        .map(GetMonumentoEnRutaDto::of)
                         .toList()
         );
 
