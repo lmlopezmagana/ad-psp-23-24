@@ -25,7 +25,7 @@ public class Ruta {
     @Enumerated(EnumType.STRING)
     private Dificultad dificultad;
 
-    @OneToMany
+    @ManyToMany
     private List<Monumento> monumentos;
 
 }
