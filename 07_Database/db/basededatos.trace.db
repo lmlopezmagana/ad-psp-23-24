@@ -1,0 +1,8 @@
+2023-10-31 13:28:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'{1,2,3}' (ENTIDAD: ""PROPIEDAD_3"" INTEGER ARRAY)"
+Data conversion error converting "'{1,2,3}' (ENTIDAD: ""PROPIEDAD_3"" INTEGER ARRAY)"; SQL statement:
+INSERT INTO entidad (id, propiedad_1, propiedad_2, propiedad_3) VALUES (nextval('entidad_seq'), 'Hola', 1234, '{1,2,3}') [22018-214]
+2023-10-31 13:28:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'{1,2,3}' (ENTIDAD: ""PROPIEDAD_3"" INTEGER ARRAY)"
+Data conversion error converting "'{1,2,3}' (ENTIDAD: ""PROPIEDAD_3"" INTEGER ARRAY)"; SQL statement:
+INSERT INTO entidad (id, propiedad_1, propiedad_2, propiedad_3) VALUES (nextval('entidad_seq'), 'Hola', 1234, '{1,2,3}') [22018-214]
