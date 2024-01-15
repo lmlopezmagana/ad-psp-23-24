@@ -1,10 +1,7 @@
 package com.salesianostriana.dam.test;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
@@ -12,6 +9,7 @@ import lombok.Setter;
 @Table(name = "producto")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
