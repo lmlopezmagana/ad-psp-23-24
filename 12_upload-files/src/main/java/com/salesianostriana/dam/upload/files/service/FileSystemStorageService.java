@@ -2,6 +2,7 @@ package com.salesianostriana.dam.upload.files.service;
 
 import com.salesianostriana.dam.upload.files.exception.StorageException;
 import com.salesianostriana.dam.upload.files.utils.MediaTypeUrlResource;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
@@ -9,9 +10,7 @@ import org.springframework.util.FileSystemUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.annotation.PostConstruct;
 import java.io.ByteArrayInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;

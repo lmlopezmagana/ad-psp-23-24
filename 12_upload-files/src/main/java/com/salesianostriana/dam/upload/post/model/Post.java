@@ -3,9 +3,8 @@ package com.salesianostriana.dam.upload.post.model;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import jakarta.persistence.*;
+
 
 @Entity
 @Getter @Setter

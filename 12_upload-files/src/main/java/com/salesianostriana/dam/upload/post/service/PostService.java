@@ -5,11 +5,11 @@ import com.salesianostriana.dam.upload.files.service.StorageService;
 import com.salesianostriana.dam.upload.post.dto.CreatePostDto;
 import com.salesianostriana.dam.upload.post.model.Post;
 import com.salesianostriana.dam.upload.post.repo.PostRepository;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
